@@ -15,3 +15,6 @@ SELECT * FROM `exams` WHERE date = '2020-06-20' AND hour > '14:00:00';
 
 6. Selezionare tutti o corsi di laurea magistrale (38)
 SELECT * FROM `degrees` WHERE `level` = 'magistrale';
+
+7. Da quanti dipartimenti e compasta l'universita? (12)
+SELECT COUNT(*) FROM `departments`;
