@@ -18,3 +18,6 @@ SELECT * FROM `degrees` WHERE `level` = 'magistrale';
 
 7. Da quanti dipartimenti e compasta l'universita? (12)
 SELECT COUNT(*) FROM `departments`;
+
+8. Quanti sono gli insegnianti che non hanno un nuero di telefono? (50)
+SELECT * FROM `teachers` WHERE `phone` IS NULL;
