@@ -6,3 +6,6 @@ SELECT * FROM `courses` WHERE `cfu` > 10;
 
 3. Selezionare tutti gli studenti che hanno piu di 30 anni 
 SELECT * FROM `students` WHERE TIMESTAMPDIFF(YEAR, date_of_birth, CURDATE()) > 30;
+
+4. Selezionare tutti i corsi del primo anno di un qualsiaisi corso di laurea (286)
+SELECT * FROM `courses` WHERE `period` = 'I semestre' AND `year` = '1';
